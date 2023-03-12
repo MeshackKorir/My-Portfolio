@@ -4,11 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>My portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>My name is Meshack. I am student at <a href="https://moringaschool.com/">Moringa School</a></p>
-    
+<header id="header">
+    <h1>My portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+<main>
+ <section id="about">
+    <h2>Aout Me</h2>
+    <p>My name is <b>Meshack Korir</b>. I am a student at <a href="https://moringaschool.com/courses/software-engineering-course-online/?https://moringaschool.com/courses/data-science-course/?utm_source=google&utm_medium=cpc&utm_campaign=Feb_6th_2023&gclid=Cj0KCQiAjbagBhD3ARIsANRrqEvf4FWt6Ff7qEm6Ei9oxEnQ_RZsgB9fESoWLardRwg5oUS-xImmq8AaAibXEALw_wcB">Moringa School</a> learning Software Engineering. My goal in this study is to gain experience and to become professional and further to get job and earn good salary. I am ready to sacrifice everything for me to get what i deserve and become patient , obidient and hardworking. As it is said "No gain without pain."</p>
+
+ </section>
+ <section id="projects">
+    <h2>My Projects</h2>
+    <ul>
+        <li><a href="#">Project 1</a></li>
+        <li><a href="#">Project 2</a></li>
+        <li><a href="#">Project 3</a</li>
+    </ul>
+
+ </section>
+ <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button> type="submit" id="send-btn">send</button>
+    </form>
+ </section>
+</main>
+<footer class="footer">
+    <p>Connect with me on social media:</p>
+    <ul>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+</footer>
 </body>
 </html>
